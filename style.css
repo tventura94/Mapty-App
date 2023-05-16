@@ -44,13 +44,17 @@ a:visited {
 
 /* SIDEBAR */
 .sidebar {
-  flex-basis: 50rem;
+  flex-basis: 30%;
   background-color: var(--color-dark--1);
   padding: 3rem 5rem 4rem 5rem;
   display: flex;
   flex-direction: column;
 }
-
+@media (max-width: 666px) {
+  .sidebar {
+    flex-basis: 20%;
+  }
+}
 .logo {
   height: 5.2rem;
   align-self: center;
